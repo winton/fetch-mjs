@@ -1,12 +1,8 @@
 import expect from "./expect"
-import { FetchMjs } from "../src"
+import fetch from "../src"
 
 describe("fetchMjs", () => {
-  it("should instantiate", () => {
-    new FetchMjs()
-  })
-
-  it("should assert", () => {
-    expect(true).toBe(true)
+  it("should be defined", () => {
+    expect(fetch).toBeDefined()
   })
 })
