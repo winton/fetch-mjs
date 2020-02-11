@@ -1,6 +1,6 @@
 {
   "name": "fetch-mjs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Universal fetch with MJS build 🌎",
   "main": "dist/cjs/index.js",
   "scripts": {
